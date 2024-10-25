@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1100;
+    height: 60;
+    padding: 8px 240px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.imm:hover{
+    cursor: pointer;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    color: #006fcf;
+}
+
+header ul li button::after{
+    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: .9375rem;
+    margin-top: .8125rem;
+    right: .9375rem;
+}
+
+header ul li{
+    padding-left: 30px;
+}
+header ul li button{
+    background-color: white;
+    border: none;
+    color: #006fcf;
+    width: 80px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.img{
+    padding: 0px 150px;
+}
+
+.div{
+    margin-left: 620px;
+    bottom: 0;
+    width: 0 auto;
+    content: "";
+    display: block;
+    height: 4px;
+    left: .9375rem;
+    margin-top: .8125rem;
+    right: .9375rem;
+}
+
+.ame{
+    color: #006fcf;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.ame:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.amex{
+    color: white;
+    background-color: #006fcf;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.amex:hover{
+    background-color: #005fcf;
+}
+
+.p{
+    font-size: 23px;
+}
+
+.a{
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+}
+.aa{
+    background-image: url(./worldservice-tile-deepblue\ \(1\).jpg);
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    background-size: 250px;
+    /* text-align: center; */
+}
+.aaa{
+    width: 1220px;
+    height: 450px;
+    background-color: white;
+    /* display: flex; */
+}
+.aaaa{
+    padding: 20px 0 0px 343px;
+
+}
+.aaaaa{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.aaaaa p{
+    padding: 50px 0 10px;
+    /* height: 50%; */
+    /* top: 50%; */
+}
+
+.title_a{
+    text-decoration: none;
+    color: black;
+}
+
+.title ul li{
+    list-style: none;
+}
+
+.title_a:hover{
+    text-decoration: underline;
+}
+
+.title button{
+    background-color: #006fcf;
+    color: white;
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.title button:hover{
+    background-color: #005fcf;
+    cursor: pointer;
+}
+
+header ul li button:hover{
+    border-bottom: rgb(200, 200, 200) 4px solid;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.main_box{
+   padding: 0px 10px;
+}
+
+.main_box2{
+    padding: 0px 10px;
+}
+
+.main_title{
+    padding: 20px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+}
+
+.p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main_img{
+    width: 600px;
+    height: 300px;
+}
+
+.main_button{
+    width: 550px;
+    height: 49px;
+    padding: 13px 30px;
+    color: white;
+    background-color: #006fcf;
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.main_button:hover{
+    background-color: #005fcf;
+    cursor: pointer;
+}
+
+
+.main2{
+    width: 100%;
+    /* height: 2403px; */
+}
+
+.main2_title{
+    /* width: 1220px; */
+    
+    padding: 0px 10px;
+}
+
+.main2_p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+
+
+.main2_a{
+    color: #006fcf;
+    text-decoration: none;
+}
+
+.main2_a:hover{
+    text-decoration-line: underline;
+}
+
+.main2_box{
+    padding: 0px 20px;
+}
+
+.main2_box2{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main2_img{
+    width: 540px;
+    height: 260px;
+}
+
+.uwu{
+    padding: 20px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+}
+
+.yu{
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+.yuu{
+    font-size: 12px;
+    margin-top: 11px;
+}
+
+.main2_button{
+    width: 500px;
+    height: 49px;
+    padding: 13px 30px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_2{
+    margin: 26px 0px; 
+}
+
+.main2_button:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main2_title_box{
+    padding: 0px 10px;
+}
+
+.main3{
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.main3_img{
+    width: 390px;
+    height: 180px;
+}
+
+.main3_box{
+    height: 409px;
+    width: 390px;
+    padding: 0px 10px;
+}
+
+.main3_p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main3_title{
+    display: flex;
+    justify-content: center;
+}
+
+.mmm{
+    font-size: 12px;
+}
+
+.main3_button{
+    height: 49px;
+    width: 350px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main3_button:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main33{
+    padding: 20px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+}
+
+.main3_pp{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.main3_p2{
+    font-size: 20px;
+    margin: 0px 0px 40px;
+}
+
+.main3_button2{
+    height: 49px;
+    width: 350px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main3_button2:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main4{
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.main4_img{
+    width: 390px;
+    height: 180px;
+}
+
+.main4_box{
+    height: 409px;
+    width: 390px;
+    padding: 0px 10px;
+}
+
+.main4_p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main4_title{
+    display: flex;
+    justify-content: center;
+}
+
+.main44{
+    padding: 20px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+}
+
+.main4_button{
+    height: 49px;
+    width: 350px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main4_button:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main4_p2{
+    margin-bottom: 64px;
+}
+
+.main4_none{
+    background-color: white;
+    width: 390px;
+    height: 409px;
+    padding: 0px 10px;
+}
+
+.main5{
+    height: 174px;
+    width: 1260px;
+    background-color: rgb(230, 230, 230);
+    margin: 0 auto;
+}
+
+.main5_title{
+    padding: 25px 20px;
+}
+
+.main5_p{
+    margin-bottom: 25px;
+}
+
+.main5_a{
+    color: #006fcf;
+}
+
+.main6{
+    padding: 20px;
+}
+
+.main6_img{
+    width: 390px;
+    height: 180px;
+}
+
+.main6_box{
+    height: 409px;
+    width: 390px;
+    padding: 0px 10px;
+    margin-bottom: 80px;
+}
+
+.main6_p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main6_title{
+    display: flex;
+    justify-content: center;
+}
+
+.main66{
+    padding: 20px;
+    border-bottom: rgb(220, 220, 220) solid 1px;
+}
+
+.main6_button{
+    height: 49px;
+    width: 350px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main6_button:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main6_button2{
+    height: 49px;
+    width: 350px;
+    color: #006fcf;
+    background-color: white;
+    border: #006fcf solid 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main6_button2:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.main7{
+    height: 119px;
+    background-color: #006fcf;
+}
+
+.main7_img{
+    height: 110px;
+    width: 370px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.main8{
+    height: 130px;
+    background-color: #006fcf;
+}
+
+.main8_title{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main8_a{
+    color: white;
+    text-decoration: none;
+    height: 49px;
+    padding: 13px 110px;
+    margin: 0px 3.3px 10px;
+    border-radius: 4px;
+    background-color: #006fcf;
+}
+
+.main8_box{
+    text-align: center;
+    width: 430px;
+}
+
+.main8_box i{
+    height: 51px;
+    margin-bottom: 17px;
+}
+
+.main8_box i:hover{
+    background-image: white "fa-solid fa-credit-card fx-3a";
+}
+
+.main9{
+    background-color: #00175A;
+}
+
+.main9_img{
+    display: flex;
+    justify-content: center;
+}
+
+.main9_img2{
+    padding: 15px 30px;
+}
+
+.main8_a:hover{
+    background-color: #005fcf;
+}
+
+footer{
+    height: 318px;
+    padding: 0px 0px 10px;
+}
+
+.footer_title{
+    height: 308px;
+    margin: 0px 230px;
+    padding: 0px 20px;
+}
+
+.footer_box{
+    height: 308px;
+    margin: 0px -10px;
+    padding: 30px 0px 0px;
+}
+
+.ko{
+    margin-top: 5px;
+}
+
+.footer_img{
+    padding: 0px 10px 30px;
+    padding-right: 767px;
+}
+
+.footer_title_box{
+    display: flex;
+}
+
+.footer_title_box p{
+    margin: 0px 10px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer_a{
+    color: #006fcf;
+    text-decoration: none;
+}
+
+.footer_a:hover{
+    text-decoration-line: underline;
+}
+
+.footer_box2 ul li{
+    padding: 0px 10px 26px;
+    list-style: none;
+}
+
+.footer_box2 ul li img:hover{
+    cursor: pointer;
+}
+
+.footer_box3{
+    padding: 0px 10px 30px;
+}
+
+.footer_box3 ul{
+    display: flex;
+}
+
+.footer_box3 ul li{
+    list-style: none;
+    border-left: rgb(150, 150, 150) solid 1.5px;
+
+}
+
+.footer_box3 ul ul li{
+    border: none;
+    padding-right: 10px;
+    
+}
+
+.footer_{
+    color: #006fcf;
+    text-decoration: none;
+}
+
+.footer_box4{
+    padding: 13.25px 10px;
+    color: #006fcf;
+    text-decoration: none;
+}
+
+.footer_:hover{
+    text-decoration-line: underline;
+}
+
+.footer_box4:hover{
+    text-decoration-line: underline;
+}
+
+.footer_p{
+    padding: 0px 10px 20px;
+}
+
+.footer_p2{
+    padding: 0px 10px 20px;
+}
